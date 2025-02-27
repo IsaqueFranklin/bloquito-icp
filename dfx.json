@@ -1,0 +1,26 @@
+{
+  "canisters": {
+    "Bloquito-icp-backend": {
+      "main": "src/Bloquito-icp-backend/main.mo",
+      "type": "motoko"
+    },
+    "Bloquito-icp-frontend": {
+      "dependencies": [
+        "Bloquito-icp-backend"
+      ],
+      "source": [
+        "src/Bloquito-icp-frontend/dist"
+      ],
+      "type": "assets",
+      "workspace": "Bloquito-icp-frontend"
+    }
+  },
+  "defaults": {
+    "build": {
+      "args": "",
+      "packtool": ""
+    }
+  },
+  "output_env_file": ".env",
+  "version": 1
+}
