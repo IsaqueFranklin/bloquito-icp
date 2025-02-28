@@ -12,7 +12,7 @@ export default function App() {
       <Routes>
         {/* Rotas Públicas */}
         <Route path="/" element={<Home />} />
-        <Route path="/about" element={<About />} />
+        <Route path="/login" element={<About />} />
 
         {/* Dashboard Layout persistente */}
         <Route path="/dashboard" element={<DashboardLayout />}>
